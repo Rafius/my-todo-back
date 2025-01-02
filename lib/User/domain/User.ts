@@ -1,7 +1,7 @@
-import { UserCreatedAt } from "./UserCreatedAt";
-import { UserEmail } from "./UserEmail";
-import { UserId } from "./UserId";
-import { UserName } from "./UserName";
+import { UserCreatedAt } from './UserCreatedAt';
+import { UserEmail } from './UserEmail';
+import { UserId } from './UserId';
+import { UserName } from './UserName';
 
 export class User {
   id: UserId;
@@ -13,7 +13,7 @@ export class User {
     id: UserId,
     name: UserName,
     email: UserEmail,
-    createdAt: UserCreatedAt
+    createdAt: UserCreatedAt,
   ) {
     this.id = id;
     this.name = name;

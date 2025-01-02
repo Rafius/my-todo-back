@@ -1,6 +1,6 @@
-import { User } from "../domain/User";
-import { UserId } from "../domain/UserId";
-import { UserRepository } from "../domain/UserRepository";
+import { User } from '../domain/User';
+import { UserId } from '../domain/UserId';
+import { UserRepository } from '../domain/UserRepository';
 
 export class InMemoryUserRepository implements UserRepository {
   private users: User[] = [];

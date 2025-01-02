@@ -8,7 +8,7 @@ export class UserName {
 
   private ensureIsValid() {
     if (this.value.length < 3) {
-      throw new Error("UserName must be at least 3 characters long");
+      throw new Error('UserName must be at least 3 characters long');
     }
   }
 }

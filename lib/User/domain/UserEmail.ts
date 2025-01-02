@@ -7,8 +7,8 @@ export class UserEmail {
   }
 
   private ensureIsValid() {
-    if (!this.value.includes("@") || !this.value.includes(".")) {
-      throw new Error("UserEmail must be a valid email address");
+    if (!this.value.includes('@') || !this.value.includes('.')) {
+      throw new Error('UserEmail must be a valid email address');
     }
   }
 }

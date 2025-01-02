@@ -8,7 +8,7 @@ export class UserId {
 
   private ensureIsValid() {
     if (this.value.length < 5) {
-      throw new Error("UserId must be at least 5 characters long");
+      throw new Error('UserId must be at least 5 characters long');
     }
   }
 }
